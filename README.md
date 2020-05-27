@@ -1,5 +1,5 @@
 # EventSauce Prooph Message Repository
-
+[![Build Status](https://travis-ci.com/jphooiveld/ProophMessageRepository.svg?branch=master)](https://travis-ci.com/jphooiveld/ProophMessageRepository)
 ## Info
 
 This bundle integrates the [Prooph Event Store](http://getprooph.org/docs/html/event-store/event_store.html) 
