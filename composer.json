@@ -1,0 +1,39 @@
+{
+  "name": "jphooiveld/prooph-message-repository",
+  "type": "library",
+  "description": "EventSauce message repository that connects to a Prooph event store",
+  "keywords": [
+    "EventSauce",
+    "Event sourcing",
+    "Message repository",
+    "Prooph",
+    "Event store"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jan Peter Hooiveld",
+      "email": "jphooiveld@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2.5|^8.0",
+    "eventsauce/eventsauce": "^0.8.1",
+    "prooph/event-store": "^7.0"
+  }
+  ,
+  "require-dev": {
+    "phpunit/phpunit": "^8.0",
+    "roave/security-advisories": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jphooiveld\\ProophMessageRepository\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Jphooiveld\\ProophMessageRepository\\Tests\\": "tests/"
+    }
+  }
+}
