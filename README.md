@@ -7,7 +7,7 @@ as a message repository for [EventSauce](https://eventsauce.io/).
 
 Whatever prooph event store implementation you want to use is up to yourself. 
 
-It is also revised to read up on both EventSauce and Prooph documentation to make certain
+It's also adviced to read up on both EventSauce and Prooph documentation to make certain
 both use the strategy (single stream or one stream per aggregate), or you might run into errors.
 
 This library is inspired by the [Doctrine Message Repository](https://packagist.org/packages/eventsauce/doctrine-message-repository) 
